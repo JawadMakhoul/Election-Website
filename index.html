@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/shared.css" />
+    <!--definition the shared css file-->
+    <link rel="stylesheet" href="style/index.css" />
+    <!--private css file-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant&display=swap"
+      rel="stylesheet"
+    />
+    <!--definition the google fonts-->
+    <link
+      rel="icon"
+      href="../FINALPROJECT/images/calfi-removebg-preview.png"
+      type="image/icontype"
+    />
+    <!--definition the logo in the tab bar-->
+    <title>מערכת בחירות</title>
+  </head>
+
+  <body>
+    <ul id="navbar">
+      <!-- Definitoin the navigation bar-->
+      <li>
+        <a href="index.html"
+          ><img
+            src="images/calfi-removebg-preview.png"
+            alt=""
+            width="27"
+        /></a>
+      </li>
+      <li><a href="page1.html">בחירות 2020</a></li>
+      <li><a href="page2.html">בחירות 2019 מועד א</a></li>
+      <li><a href="page3.html">בחירות 2019 מועד ב</a></li>
+      <li><a href="page4.html">מידע על המפלגות הבולטות</a></li>
+      <li><a href="page5.html">רשימת ראשי הממשלה</a></li>
+      <li>
+        <a href="https://www.gov.il/apps/moin/bocharim/" target="_blank"
+          >קישור למיקום בחירה</a
+        >
+      </li>
+    </ul>
+    <main>
+      <p id="top"></p>
+      <!--definition id for the arrow up-->
+
+      <p id="words">לבחירות הקרובות</p>
+      <p id="demo"></p>
+
+      <script>
+        // countdown java script
+        // Set the date we're counting down to
+        var countDownDate = new Date("nov 1, 2022 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+          // Get today's date and time
+          var now = new Date().getTime();
+
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor(
+            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          // Output the result in an element with id="demo"
+          document.getElementById("demo").innerHTML =
+             days+ ":" + hours + ":" + minutes + ":" + seconds;
+
+          // If the count down is over, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+      </script>
+
+      <p id="decade">מסכמים עשור</p>
+      <video width="320" height="180" controls>
+        <!--definition the video-->
+        <source src="../FINALPROJECT/videos/2020elec.mp4" type="video/mp4" />
+      </video>
+
+      <div class="up">
+        <a href="#top"
+          ><img
+            src="../FINALPROJECT/images/465-4655965_font-awesome-5-solid-arrow-up-up-arrow-removebg-preview.png"
+            alt=""
+            width="60"
+        /></a>
+      </div>
+      <!--definition the arrow up image-->
+      <div class="clearfix">
+        <!--definitionthe the graph 1999-2019 -->
+        <div class="box">
+          <nav class="wrapper">
+            <div class="head">
+              <h2> אחוזי הצבעה 1999 - 2019</h2>
+              <ul class="bar">
+                <li class="a1999">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>1999</h3>
+                      <p>78.7%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2003">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2003</h3>
+                      <p>67.8%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2006">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2006</h3>
+                      <p>63.5%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2009">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2009</h3>
+                      <p>64.7%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2013">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2013</h3>
+                      <p>67.8%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2015">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2015</h3>
+                      <p>72.3%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2019">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2019 - 1</h3>
+                      <p>68.5%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="b2019">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2019 - 2</h3>
+                      <p>69.8%</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="box">
+          <!--definition the graph of 1996-2019 -->
+          <aside class="wrapper">
+            <div class="head">
+              <h2>השתתפות המגזר הערבי בבחירות 1996 - 2019</h2>
+              <ul class="bar">
+                <li class="a1996">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>1996</h3>
+                      <p>77.0%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a1999">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>1999</h3>
+                      <p>75.0%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2003">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2003</h3>
+                      <p>62.0%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2006">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2006</h3>
+                      <p>56.3%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2009">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2009</h3>
+                      <p>53.4%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2013">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2013</h3>
+                      <p>56.5%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2015">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2015</h3>
+                      <p>63.5%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="a2019">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2019 - 1</h3>
+                      <p>49.2%</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="b2019">
+                  <div class="bottom">
+                    <div class="infobox">
+                      <h3>2019 - 2</h3>
+                      <p>59.2%</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!--definition the footer-->
+
+      <a href="https://www.youtube.com/user/IsraelDemocracyIns" target="_blank">
+        <img
+          alt="link"
+          src="images/imgbin-youtube-logo-internet-marketing-subscribe-youtube-logo-ZStYAQskpiCPL1pGwgsrnF1Tj-removebg-preview.png"
+          width="45"
+        />
+      </a>
+
+      <a
+        href="https://www.facebook.com/The.Israel.Democracy.Institute/"
+        target="_blank"
+      >
+        <img
+          alt="link"
+          src="images/logo-facebook-vector-15-removebg-preview.png"
+          width="100"
+        />
+      </a>
+
+       &nbsp; Designed by Jawad & Hanna, 2020 &copy;
+    </footer>
+  </body>
+</html>
