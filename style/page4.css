@@ -1,0 +1,132 @@
+body,
+html {
+  height: 100%;
+}
+
+.up { /* class for the arrow that goes up*/
+  position: sticky;
+  top: 90%;
+}
+.parallax { /* class for the first party*/
+  background-image: url(../images/mflagot/539988.png);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxx { /* class for the second party*/
+  background-image: url(../images/mflagot/betenooo.png);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxxx { /* class for the third party*/
+  background-image: url(../images/mflagot/likud.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxxxx { /* class for the fourth party*/
+  background-image: url(../images/mflagot/unnamed.png);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p{
+  font-family: "Assistant", sans-serif;
+  font-size: 1.8rem;
+  padding-right: 20px;
+}
+#mshoteft{
+  background-color: #66ffe0;
+  padding-right: 20px;
+}
+
+#mshotefttable { /* to change the background effect*/
+  font-size: 1.5rem;
+  background: linear-gradient(#f2fffc, #a6ffed, #66ffe0);
+}
+
+#beteno{
+  padding-right: 20px;
+  color: white;
+  background-color: #333385;
+}
+
+#betenotable { /* to change the background effect*/
+  font-size: 1.5rem;
+  color: ivory;
+  background: linear-gradient(
+    #8080b2,
+    #7373ab,
+    #6666a3,
+    #59599c,
+    #4d4d94,
+    #40408c,
+    #333385
+  );
+}
+
+#likud{
+  padding-right: 20px;
+  color: white;
+  background-color:#003366 ;
+}
+
+#likudtable { /* to change the background effect*/
+  font-size: 1.5rem;
+  color: ivory;
+  background: linear-gradient(
+    #b2c2d1,
+    #a6b8c9,
+    #99adc2,
+    #8ca3ba,
+    #8099b2,
+    #738fab,
+    #6685a3,
+    #597a9c,
+    #4d7094,
+    #40668c,
+    #335c85,
+    #26527d,
+    #194775,
+    #0d3d6e,
+    #003366
+  );
+}
+
+#kahollvan{
+  padding-right: 20px;
+  color: white;
+  background-color: #000066;
+}
+#kahollvantable { /* to change the background effect*/
+  font-size: 1.5rem;
+  color: ivory;
+  background: linear-gradient(#33ccff, #1c70ba, #000066);
+}
+
+.betek { /* class to make the image be in the left side of the site*/
+  float: left;
+}
+
+h2,
+p {
+  text-align: right;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+}

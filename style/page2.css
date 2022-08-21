@@ -1,0 +1,162 @@
+main {
+  padding-top: 60px;
+}
+
+span.dropcap { /* to change the first letter in the paragraph*/
+  float: right;
+  width: 0.7em;
+  font-size: 500%;
+  line-height: 60%;
+}
+
+#a2019 { /* ID for image*/
+  float: left;
+}
+
+p {
+  font-size: 1.3rem;
+  text-align: right;
+  padding-right: 20px;
+}
+
+video {
+  width: 100%;
+  height: 40em;
+}
+
+.up { /* class for the arrow that goes up*/
+  position: sticky;
+  top: 90%;
+}
+
+#election2019 { /* ID for the 2019 election image*/
+  width: 100%;
+}
+
+.box { /* class for the graph design*/
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  color: rgb(2, 85, 136);
+}
+
+.clearfix::after { /*Insert " " after the content of each clearfix class*/
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix .box h1,
+.clearfix .box h2 { /*make the h1 and h2 in the center*/
+  text-align: center;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+  text-decoration: underline;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+table {
+  border: 3px solid rgb(34, 133, 199);
+  border-collapse: collapse;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 10px;
+  width: 50%;
+}
+
+.bargraph { /* class for the graph of the parties*/
+  list-style: none;
+  width: 40%;
+  padding-top: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 30px;
+}
+
+ul.bargraph li { /* class for the graph of the parties*/
+  height: 35px;
+  color: white;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 14px;
+  line-height: 35px;
+  padding: 0px 20px;
+}
+
+
+/* classes for the parties*/
+.likud {
+  background: #ed1c24;
+  width: 100%;
+}
+
+/* classes for the parties*/
+.kahollvan {
+  background: #ef465b;
+  width: 95%;
+}
+
+/* classes for the parties*/
+.shas {
+  background: #e55a6b;
+  width: 85%;
+}
+
+/* classes for the parties*/
+.tora {
+  background: #e28159;
+  width: 80%;
+}
+
+/* classes for the parties*/
+.hdash {
+  background: #f99c1c;
+  width: 75%;
+}
+
+/* classes for the parties*/
+.avoda {
+  background: #f4d41e;
+  width: 70%;
+}
+
+/* classes for the parties*/
+.beteno {
+  background: #97b546;
+  width: 65%;
+}
+
+/* classes for the parties*/
+.yamen {
+  background: #36b669;
+  width: 60%;
+}
+
+/* classes for the parties*/
+.mrts {
+  background: #42bda5;
+  width: 55%;
+}
+
+/* classes for the parties*/
+.kolno {
+  background: #00aeef;
+  width: 50%;
+}
+
+/* classes for the parties*/
+.balad {
+  background: rgb(34, 133, 199);
+  width: 45%;
+}

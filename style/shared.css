@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { /* shared font family and font size*/
+  font-family: "Assistant", sans-serif;
+  font-size: 1rem;
+}
+
+#navbar { /* definition of the navigation bar*/
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #025588;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+#navbar li { /* to make the items in the navigation bar in the right side of the bar*/
+  float: right;
+}
+
+#navbar li a { 
+  font-size: 1.3rem;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover { /* to change the color when the mouse on it*/
+  background-color: white;
+  color: #025588;
+}
+
+footer { /* definition of the footer*/
+  padding: 20px;
+  font-size: 1em;
+  color: white;
+  text-align: left;
+  background-color: rgb(2, 85, 136);
+}
+
+footer img { /* definition of images in the footer*/
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,40 @@
+main {
+  padding-top: 80px;
+}
+
+.up { /* class for the arrow that goes up*/
+  position: sticky;
+  top: 90%;
+}
+table { /* background effect of the table*/
+  font-size: 1.5rem;
+  background: linear-gradient(
+    #ffffff,
+    #f2f6f9,
+    #e6eef3,
+    #d9e6ed,
+    #ccdde7,
+    #c0d4e1,
+    #b3ccdb,
+    #a6c4d5,
+    #9abbcf,
+    #8db2c9,
+    #80aac4,
+    #74a2be,
+    #6799b8,
+    #5b90b2,
+    #4e88ac,
+    #4180a6,
+    #3577a0,
+    #286e9a,
+    #1b6694,
+    #0f5e8e,
+    #025588
+  );
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr { /* to make the text in the center of the table*/
+  text-align: center;
+}

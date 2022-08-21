@@ -1,0 +1,329 @@
+#demo {
+  /* id for the countdown*/
+
+  text-align: center;
+  font-size: 90px;
+  margin-top: 0px;
+}
+
+#words {
+  /* id for the לבחירות הקרובות*/
+  padding-top: 100px;
+  text-align: center;
+  font-size: 45px;
+}
+
+main {
+  /* for the background if the main*/
+  background: linear-gradient(
+    #ffffff,
+    #f2f6f9,
+    #e6eef3,
+    #d9e6ed,
+    #ccdde7,
+    #c0d4e1,
+    #b3ccdb,
+    #a6c4d5,
+    #9abbcf,
+    #8db2c9,
+    #80aac4,
+    #74a2be,
+    #6799b8,
+    #5b90b2,
+    #4e88ac,
+    #4180a6,
+    #3577a0,
+    #286e9a,
+    #1b6694,
+    #0f5e8e,
+    #025588
+  );
+}
+
+/* basic reset */
+ul,
+h3,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  /* class for the ul design*/
+  text-align: center;
+}
+
+#decade {
+  /* id for מסכמים עשור*/
+  margin-top: 50px;
+  border: 6px solid lightsteelblue;
+  background-color: lightblue;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  font-size: 3rem;
+}
+video {
+  width: 40%;
+  height: 25em;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.up {
+  /* class for the arrow that goes up*/
+  position: sticky;
+  top: 90%;
+}
+h2 {
+  text-decoration: underline overline;
+}
+
+.box {
+  /* class for the graph design*/
+  float: right;
+  width: 40%;
+  padding: 90px;
+}
+
+.clearfix::after {
+  /*Insert " " after the content of each clearfix class*/
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 20px;
+}
+
+.bar {
+  list-style: none;
+}
+
+.bar li div.bottom {
+  position: relative;
+  margin: 5px 0;
+  width: 50px;
+  height: 100px;
+  border-radius: 40px/100px;
+  border-radius: 40px 100px;
+  border-radius: 40px/100px;
+  background: linear-gradient(-90deg, #97a7a9, #b8cbcd);
+  background: gradient(linear,0 top,0 bottom,from(#97a7a9),to(#b8cbcd));/*CSS gradients let you display smooth transitions between two or more specified colors.*/
+  transition-property: width; /*change the width with a smooth transition effect*/
+  transition-duration: 500ms; /* the transition effect last for 500ms*/
+}
+
+.bar li div.bottom div.infobox {
+  padding: 25px 10px 0 60px;
+  transition-property: color; /*change the color with a smooth transition effect*/
+  transition-duration: 500ms; /* the transition effect last for 500ms*/
+}
+
+.bar li div.bottom div.infobox p {
+  opacity: 0;
+  transition-property: opacity; /*change the opacity with a smooth transition effect*/
+  transition-duration: 500ms; /* the transition effect last for 500ms*/
+}
+
+.bar li:hover div.bottom div.infobox { /* changing the color of the text when the mouse on it*/
+  color: white;
+}
+
+.bar li:hover div.bottom div.infobox p { /* make it appears */
+  opacity: 1;
+}
+
+
+/* class for each year*/
+.a1996 div.bottom { 
+  z-index: 98;
+  height: 120px;
+}
+
+/* class for each year*/
+.a1996:hover div.bottom {
+  z-index: 998;
+  background-color: #1a9069;
+  width: 450px;
+  background: linear-gradient(-90deg, #1a9069, #00ca98);
+  background: gradient(
+    linear,
+    0 top,
+    0 bottom,
+    from(#1a9069),
+    to(#00ca98)
+  );
+}
+
+/* class for each year*/
+.a1999 div.bottom {
+  z-index: 98;
+  height: 120px;
+}
+
+/* class for each year*/
+.a1999:hover div.bottom {
+  z-index: 998;
+  background-color: #1a6c90;
+  width: 420px;
+  background: linear-gradient(-90deg, #1a6c90, #14506b);
+  background: gradient(
+    linear,
+    0 top,
+    0 bottom,
+    from(#1a6c90),
+    to(#14506b)
+  );
+}
+
+/* class for each year*/
+.a2003 div.bottom {
+  z-index: 96;
+  height: 120px;
+}
+
+/* class for each year*/
+.a2003:hover div.bottom {
+  z-index: 996;
+  background-color: #9d0032;
+  width: 380px;
+  background: linear-gradient(-90deg, #9d0032, #7a0027);
+  background: gradient(
+    linear,
+    0 top,
+    0 bottom,
+    from(#9d0032),
+    to(#7a0027)
+  );
+}
+
+/* class for each year*/
+.a2006 div.bottom {
+  z-index: 94;
+  height: 120px;
+}
+
+/* class for each year*/
+.a2006:hover div.bottom {
+  z-index: 994;
+  background-color: #b6781e;
+  width: 300px;
+  background: linear-gradient(-90deg, #b6781e, #916018);
+  background: gradient(
+    linear,
+    0 top,
+    0 bottom,
+    from(#b6781e),
+    to(#916018)
+  );
+}
+
+/* class for each year*/
+.a2009 div.bottom {
+  z-index: 92;
+  height: 120px;
+}
+
+/* class for each year*/
+.a2009:hover div.bottom {
+  z-index: 992;
+  background-color: #698d54;
+  width: 280px;
+  background: linear-gradient(-90deg, #698d54, #506b40);
+  background: gradient(
+    linear,
+    0 top,
+    0 bottom,
+    from(#698d54),
+    to(#506b40)
+  );
+}
+
+/* class for each year*/
+.a2013 div.bottom {
+  z-index: 90;
+  height: 120px;
+}
+
+/* class for each year*/
+.a2013:hover div.bottom {
+  z-index: 990;
+  background-color: #340e43;
+  width: 300px;
+  background: linear-gradient(-90deg, #340e43, #1a0721);
+  background: gradient(
+    linear,
+    0 top,
+    0 bottom,
+    from(#340e43),
+    to(#1a0721)
+  );
+}
+
+/* class for each year*/
+.a2015 div.bottom {
+  z-index: 90;
+  height: 120px;
+}
+
+/* class for each year*/
+.a2015:hover div.bottom {
+  z-index: 990;
+  background-color: #00a2ff;
+  width: 395px;
+  background: linear-gradient(-90deg, #00a2ff, #013158);
+  background: gradient(
+    linear,
+    0 top,
+    0 bottom,
+    from(#00a2ff),
+    to(#013158)
+  );
+}
+
+/* class for each year*/
+.a2019 div.bottom {
+  z-index: 90;
+  height: 120px;
+}
+
+/* class for each year*/
+.a2019:hover div.bottom {
+  z-index: 990;
+  background-color: yellow;
+  width: 200px;
+  background: linear-gradient(-90deg, yellow, #747200);
+  background: gradient(
+    linear,
+    0 top,
+    0 bottom,
+    from(yellow),
+    to(#747200)
+  );
+}
+
+/* class for each year*/
+.b2019 div.bottom {
+  z-index: 90;
+  height: 120px;
+}
+
+/* class for each year*/
+.b2019:hover div.bottom {
+  z-index: 990;
+  background-color: violet;
+  width: 350px;
+  background: linear-gradient(-90deg, violet, #4f006b);
+  background: gradient(
+    linear,
+    0 top,
+    0 bottom,
+    from(violet),
+    to(#4f006b)
+  );
+}

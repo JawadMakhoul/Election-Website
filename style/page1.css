@@ -1,0 +1,145 @@
+span.dropcap { /* to change the first letter in the paragraph*/
+  float: right;
+  width: 0.7em;
+  font-size: 500%;
+  line-height: 60%;
+}
+
+#image {
+  float: left;
+}
+
+.up {
+  /* class for the arrow that goes up*/
+  position: sticky;
+  top: 90%;
+}
+.box {
+  /* class for the graph design*/
+  float: left;
+  width: 33.33%;
+  height: 300px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.clearfix::after {
+  /*Insert " " after the content of each clearfix class*/
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix .box .info { /* effects for the item*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  text-align: center;
+  text-decoration: underline;
+  background: linear-gradient(
+    #025588,
+    #0f5e8e,
+    #1b6694,
+    #286e9a,
+    #3577a0,
+    #4180a6,
+    #4e88ac,
+    #5b90b2,
+    #6799b8,
+    #74a2be,
+    #80aac4,
+    #8db2c9,
+    #9abbcf,
+    #a6c4d5,
+    #b3ccdb,
+    #c0d4e1,
+    #ccdde7,
+    #d9e6ed,
+    #e6eef3,
+    #f2f6f9,
+    #ffffff
+  );
+}
+
+.clearfix .box .info1 { /* effects for the item*/
+  background: linear-gradient(
+    #ffffff,
+    #f2f6f9,
+    #e6eef3,
+    #d9e6ed,
+    #ccdde7,
+    #c0d4e1,
+    #b3ccdb,
+    #a6c4d5,
+    #9abbcf,
+    #8db2c9,
+    #80aac4,
+    #74a2be,
+    #6799b8,
+    #5b90b2,
+    #4e88ac,
+    #4180a6,
+    #3577a0,
+    #286e9a,
+    #1b6694,
+    #0f5e8e,
+    #025588
+  );
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 80px;
+  padding-right: 20px;
+  text-align: right;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.3rem;
+  text-align: right;
+  padding-right: 20px;
+}
+
+header {
+  text-align: center;
+  font-size: 3rem;
+  border: 4px solid rgb(2, 85, 136);
+  border-bottom: 0px;
+  border-left: 0px;
+  margin-top: 100px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.container { /* class for the images*/
+  background-color: white;
+  width: 70%;
+  margin: 30px auto;
+  border: 5px solid rgb(2, 85, 136);
+  border-top: 0px;
+  border-right: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col { /* class for the effects*/
+  flex-basis: 100%;
+  padding: 5px;
+  margin: 0;
+  transition: 0.4s; 
+}
+.col img {
+  width: 33%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.col img:hover { /* to make the image bigger when the mouse on it*/
+  transform: scale(1.1); 
+}
+
+#likudimg {
+  padding-bottom: 80px;
+}

@@ -1,0 +1,149 @@
+main {
+  padding-top: 50px;
+}
+
+span.dropcap {  /* to change the first letter in the paragraph*/
+  float: right;
+  width: 0.7em;
+  font-size: 500%;
+  line-height: 60%;
+}
+
+#b2019 { /*ID for image*/
+  float: left;
+}
+
+p {
+  font-size: 1.3rem;
+  text-align: right;
+  padding-right: 20px;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-right: 20px;
+  text-align: right;
+  text-decoration: underline;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+video {
+  width: 100%;
+  height: 40em;
+}
+
+#election2019 { /* ID for the election 2019 image*/
+  width: 100%;
+}
+.up { /* class for the arrow that goes up*/
+  position: sticky;
+  top: 90%;
+}
+.box { /* class for the graph design*/
+  float: left;
+  width: 33%;
+  padding: 50px;
+  color: rgb(2, 85, 136);
+}
+
+.clearfix::after { /*Insert " " after the content of each clearfix class*/
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix .box h1,
+.clearfix .box h2 { /*make the h1 and h2 in the center*/
+  text-align: center;
+}
+
+table {
+  border: 3px solid rgb(34, 133, 199);
+  border-collapse: collapse;
+  font-size: 1.3rem;
+  text-align: center;
+  width: 40%;
+  margin-right: 850px;
+  padding: 10px;
+}
+
+table tr:nth-child(odd) { /* change the background in every odd line in the table*/
+  background-color: rgb(34, 133, 199);
+}
+
+.bargraph { /* class for the graph of the parties*/
+  list-style: none;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 50%;
+  padding-right: 150px;
+}
+
+ul.bargraph li { /* class for the graph of the parties*/
+  height: 35px;
+  color: white;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 14px;
+  line-height: 35px;
+  padding: 0px 20px;
+}
+
+/* classes for the parties*/
+.kahollvan {
+  background: #ed1c24;
+  width: 100%;
+}
+
+/* classes for the parties*/
+.likud {
+  background: #ef465b;
+  width: 95%;
+}
+
+/* classes for the parties*/
+.mshotft {
+  background: #e55a6b;
+  width: 93%;
+}
+
+/* classes for the parties*/
+.shas {
+  background: #e28159;
+  width: 85%;
+}
+
+/* classes for the parties*/
+.beteno {
+  background: #f99c1c;
+  width: 75%;
+}
+
+/* classes for the parties*/
+.tora {
+  background: #f4d41e;
+  width: 74%;
+}
+
+/* classes for the parties*/
+.ymena {
+  background: #97b546;
+  width: 55%;
+}
+
+/* classes for the parties*/
+.avoda {
+  background: #36b669;
+  width: 40%;
+}
+
+/* classes for the parties*/
+.dmokrate {
+  background: #42bda5;
+  width: 30%;
+}
